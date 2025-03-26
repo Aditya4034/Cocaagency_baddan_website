@@ -1,0 +1,257 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  nav {
+    background-color: #e60000; /* Coca-Cola Red */
+    padding: 15px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #b30000;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  h1, h2 {
+    color: #e60000; /* Coca-Cola Red */
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .service {
+    width: 220px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+    border: 2px solid #e60000;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .service h3 {
+    color: #e60000;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .service p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+/* help */
+/* Help Section */
+.help {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .help h2 {
+    color: #e60000;
+  }
+  
+  .help p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .help-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .help-form input, .help-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #e60000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .help-form textarea {
+    resize: vertical;
+  }
+  
+  .help-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e60000;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .help-form button:hover {
+    background-color: #b30000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .help-form {
+      padding: 0 20px;
+    }
+  
+    .help-form input, .help-form textarea {
+      font-size: 14px;
+    }
+  
+    footer .social-icons a {
+      font-size: 16px;
+    }
+  }
+  
+
+  
+.products {
+    padding: 2rem;
+    background-color: #fbe9e7;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card:hover {
+    transform: scale(1.1);
+}
+  
+  .contact-details {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+  }
+  .owner img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+}
+  
+  .map {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  footer .social-icons a:hover {
+    color: #e60000;
+  }
+  
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    section {
+      padding: 20px;
+    }
+  
+    .service-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .map {
+      height: 300px;
+    }
+  }
+  

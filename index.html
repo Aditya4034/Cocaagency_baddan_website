@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coca-Cola Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">होम</a></li>
+      <li><a href="#brand">हमारा ब्रांड</a></li>
+      <li><a href="#services">हमारी सेवाएँ</a></li>
+      <li><a href="#help">मदद</a></li>
+      <li><a href="#about">हमारे बारे में</a></li>
+      <li><a href="#contact">संपर्क करें</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>हमारे Coca-Cola एजेंसी में आपका स्वागत है</h1>
+    <p>हम आपको प्रदान करते हैं Coca-Cola के असली और ताजे उत्पाद।</p>
+    <img src="company.jpg" alt="Coca-Cola" class="responsive">
+  </section>
+
+  <!-- Our Brand Section -->
+  <section id="brand">
+    <h2>हमारा ब्रांड</h2>
+    <p>Coca-Cola दुनिया का सबसे लोकप्रिय सॉफ्ट ड्रिंक है, जो हर उम्र के लोगों के बीच पसंद किया जाता है। हमारा लक्ष्य दुनिया को ताजगी देना है।</p>
+    <img src="brandimg.jpg" alt="Coca-Cola Brand" class="responsive">
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>हमारी सेवाएँ</h2>
+    <marquee style="color: red; background-color: white;">24x7 उपलब्ध, ऑनलाइन डिलीवरी सेवा भी प्रदान की जाती है!</marquee>
+    <div class="service-container">
+      <div class="service">
+        <img src="spriteimg.jpg" alt="Sprite" class="service-img">
+        <h3>Sprite</h3>
+        <p>Sprite एक ताजगी भरा नींबू-चमचमाती सॉफ्ट ड्रिंक है, जो पूरे परिवार को पसंद आता है।</p>
+      </div>
+      <div class="service">
+        <img src="maazaimg.jpg" alt="Maaza" class="service-img">
+        <h3>Maaza</h3>
+        <p>Maaza आम का स्वाद लेकर आता है, जो हर किसी को पसंद आता है। यह ताजगी और मज़ेदार स्वाद का अनुभव देता है।</p>
+      </div>
+      <div class="service">
+        <img src="coca cola.jpg" alt="Coca-Cola" class="service-img">
+        <h3>Coca-Cola</h3>
+        <p>Coca-Cola दुनिया का सबसे पसंदीदा सॉफ्ट ड्रिंक है, जो हर किसी की चुस्की में ताजगी भरता है।</p>
+      </div>
+      <div class="service">
+        <img src="fantaimg.jpg" alt="Fanta" class="service-img">
+        <h3>Fanta</h3>
+        <p>Fanta एक रंगीन और फलों का स्वाद लेने वाला ड्रिंक है, जो आपकी प्यास को बुझाता है।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products">
+    <h2>हमारे उत्पाद और सेवाएं</h2>
+    <div class="product-gallery">
+        <div class="product-card">
+            <img src="coca cola.jpg" alt="Coca-Cola">
+            <p>Coca-Cola</p>
+        </div>
+        <div class="product-card">
+            <img src="spriteimg.jpg" alt="Sprite">
+            <p>Sprite</p>
+        </div>
+        <div class="product-card">
+            <img src="fantaimg.jpg" alt="Fanta">
+            <p>Fanta</p>
+        </div>
+        <div class="product-card">
+            <img src="maazaimg.jpg" alt="Maaza">
+            <p>Maaza</p>
+        </div>
+        <div class="product-card">
+            <img src="thumbs up.jpg" alt="Thums Up">
+            <p>Thums Up</p>
+        </div>
+    </div>
+</section>
+ <!-- help -->
+   <!-- Help Section (Order Section) -->
+   <section id="help" class="help">
+    <h2>हमसे सहायता प्राप्त करें</h2>
+    <p>कृपया नीचे दिए गए फार्म के माध्यम से हमसे संपर्क करें, हम आपकी मदद के लिए हमेशा तैयार हैं।</p>
+    
+    <form action="https://formspree.io/f/mvoevpea" method="post" class="help-form">
+      <input type="text" name="Name" placeholder="आपका नाम" required autocomplete="off">
+      <input type="tel" name="phone" placeholder="आपका फोन नंबर" required autocomplete="off" pattern="[0-9]{10}" title="10 अंकों का फोन नंबर दर्ज करें">
+
+      <input type="email" name="email" placeholder="आपका ईमेल"  autocomplete="off">
+      <textarea name="Message" rows="6" placeholder="आपका संदेश" required autocomplete="off" min="10"></textarea>
+      <button type="submit" class="btn btn2">सबमिट करें</button>
+    </form>
+  </section>
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>हमारे बारे में</h2>
+    <p>Coca-Cola एजेंसी आपके शहर में एक प्रमुख और विश्वसनीय नाम है, जो Coca-Cola के असली और ताजे उत्पाद आप तक पहुंचाता है।</p>
+    <div class="owner">
+        <img src="baddanimg.jpg" alt="Aryan Rai">
+        <h2>एजेंसी मालिक: आर्यन राय (बद्दन)</h2>
+        <h2>एजेंसी मालिक: आर्यन राय (बद्दन), प्रशांत राय</h2>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>हमसे संपर्क करें</h2>
+    <div class="contact-details">
+   
+        
+      <p>नाम: आर्यन राय (बद्दन)</p>
+      <p>मोबाइल नंबर: 90985588XX</p>
+    
+     <p>नाम: प्रशांत राय</p>
+      <p>मोबाइल नंबर: 80856066XX</p>
+
+      <p>ईमेल: info@cokecorp.com</p>
+      <iframe src="https://www.google.com/maps?q=Ghuwara+post+office&output=embed" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p style="color: white;">&copy; 2025 Coca-Cola Agency | सभी अधिकार सुरक्षित</p>
+    <p style="color: white;">सोशल मीडिया पर हमें फॉलो करें</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
